@@ -5,7 +5,6 @@ class Radio
          @nombre = nombre
          @dial= dial
          @transmitiendo = transmitiendo  
-
     end
    
     #assesor que accedera a esos metodos
@@ -19,7 +18,6 @@ class Radio
         @transmitiendo
     end
 end
-
     #creacion del objeto a partir de la clase
     radio1=Radio.new("Romantica", "101.5","SI")
     n= radio1.printNombre()
